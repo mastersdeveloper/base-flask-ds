@@ -1,0 +1,26 @@
+
+1° Create folder and environment
+    - CommandLine for environment: python3 -m venv venv
+
+2° Before work in this project, activate the environment
+    - On Windows: venv\Scripts\activate
+
+3° Now install the Flask
+    - CommandLine for install Flask: pip install Flask
+
+4° Install other libraries:
+    - SQLAlchemy        ===> pip install SQLAlchemy
+    - flask-SQLAlchemy  ===> pip install flask-sqlalchemy
+
+
+* Now come create sqlitedb.file with the following commandline in python:
+
+        from server import db
+        db.create_all()
+        exit()
+
+* Now run our application with following commandline: python server.py
+
+
+
+
